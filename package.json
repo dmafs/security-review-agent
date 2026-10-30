@@ -1,0 +1,35 @@
+{
+  "name": "security-review-agent",
+  "version": "1.0.0",
+  "description": "Agente de IA para revisión de seguridad de código en Pull Requests — Trabajo de grado SDLC-AI",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmafs/security-review-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dmafs/security-review-agent/issues"
+  },
+  "homepage": "https://github.com/dmafs/security-review-agent#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "octokit": "^3.1.2"
+  }
+}
